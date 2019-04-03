@@ -50,9 +50,10 @@ _Ajakava võib muutuda vastavalt tempole_
 | 12:45    | Lõuna  |  | 
 | 13:45    | DNS | [Slaidid][dns-html] | 
 | 14:10    | SSH  | [Ssh harjutus][ssh-md] | 
-| 14:30    |   |  | 
+| 14:30    | Nginx | [Harjutus][nginx-md] | 
 | 15:15    |   |  | 
 | 15:00    | Kohvipaus |  | 
+| 16:00    | Varia  | [Logrotate][logrotate-out]  | 
 | 17:00    |   |  | 
 
 [protsessid-md]:     https://github.com/ooobik/ubuntu-training/blob/master/docs/markdown/protsessid.md
@@ -60,27 +61,10 @@ _Ajakava võib muutuda vastavalt tempole_
 [scripting-md]:     https://github.com/ooobik/ubuntu-training/blob/master/docs/markdown/scripting.md
 [dns-md]:     https://github.com/ooobik/ubuntu-training/blob/master/docs/html/dns.html
 [ssh-md]:     https://github.com/ooobik/ubuntu-training/blob/master/docs/html/ssh.html
-
+[nginx-md]:     https://github.com/ooobik/ubuntu-training/blob/master/docs/html/nginx.md
+[logrotate-out]: https://www.digitalocean.com/community/tutorials/how-to-manage-logfiles-with-logrotate-on-ubuntu-16-04
 
 ## Lahtised teemad
-vaata ajakava paremini üle
-systemctl - services alla
-cryptsetup
-x scripting
-backups
-x versioning
-x peripherals
-x monitoring
-x killing jobs
-x resource management
-x remote access
-x cron
-x setting up services
-x daemons
-common mistakes /*, / ./* ./
-basic security
-
-
 #ssh
 #scriptimine
 #protsessid
