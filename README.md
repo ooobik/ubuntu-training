@@ -72,3 +72,14 @@ x setting up services
 x daemons
 common mistakes /*, / ./* ./
 basic security
+
+
+ssh
+scriptimine
+protsessid
+cron, teenused
+dns
+logrotate
+backup
+httpd/nginx
+monitooring
