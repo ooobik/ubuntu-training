@@ -27,11 +27,11 @@ _Ajakava võib muutuda vastavalt tempole_
 | 13:45    | Kasutajad ja grupid    | [Kasutajate ja gruppide muutmine][users-md]    | 
 | 14:30    | Failiõigused           | [Failiõigused][perms-md]                       | 
 | 15:00    | Kohvipaus              |                                                | 
-| 16:15    | Distro versioonid      | [Slaidid][distro-versions-html]| 
+| 16:15    | Distro versioonid      | [Slaidid][distro_versions-html]| 
 
 [intro-html]:     https://ooobik.github.io/ubuntu-training/html/intro.html
 [distros-html]:     https://ooobik.github.io/ubuntu-training/html/distros.html
-[distros-html]:     https://ooobik.github.io/ubuntu-training/html/distro_versions.html
+[distro_versions-html]:     https://ooobik.github.io/ubuntu-training/html/distro_versions.html
 [filetree-html]:     https://ooobik.github.io/ubuntu-training/html/filetree.html
 [ubuntu-md]:     https://github.com/ooobik/ubuntu-training/blob/master/docs/markdown/ubuntu-install.md
 [bash-md]:     https://github.com/ooobik/ubuntu-training/blob/master/docs/markdown/bash.md
