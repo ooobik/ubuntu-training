@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Welcome and Introduction</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="../static/style.css">
+  </head>
+  <body>
+    <textarea id="source">
+layout: true
+class: inverse, middle, large
+
+---
+
+# DNS
+
+---
+
+# DNS
+
+Domain-name service
+
+* Tegu on põhimõtteliselt telefonikataloogiga
+* IP :- domeeninimi
+* Ei ole üks-ühele vastavuses
+* Eelduseks on staatiline IP
+---
+
+# DNS
+
+Dnsi kirjete kontrollimiseks on erinevaid käske - host, nslookup, dig. 
+Igaüks annab erineva koguse väljundit
+
+[ubuntu@ubuntu]:~$ host ut.ee
+
+ut.ee has address 193.40.5.73
+
+ut.ee mail is handled by 10 berta.it.da.ut.ee.
+
+ut.ee mail is handled by 10 frida.it.da.ut.ee.
+
+---
+
+# DNS kirjed
+
+Igas võrgus on sätestatud tavaliselt oma DNS serverid
+
+Tegu on osaga internetiprotokollist
+
+Koduvõrkudes on esimeseks DNS serveriks ruuter.
+
+Kui ruuter ei tea vastust, suunab ta edasi eelsätestatud DNS serverile
+
+---
+
+# Vaatame dig käsu väljundit
+
+    </textarea>
+    <script src="../static/remark-latest.min.js">
+    </script>
+    <script>
+      var slideshow = remark.create();
+    </script>
+  </body>
+</html>
+
