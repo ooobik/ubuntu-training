@@ -45,8 +45,8 @@ _Ajakava võib muutuda vastavalt tempole_
 | -------- | ---------  | ---------  
 | 09:00    | Ülessättimine |  | 
 | 09:15    | Protsessid | [Protsessid][protsessid-md] | 
-| 10:00    | Süsteemsed teenused |  | 
-| 11:00    |   |  | 
+| 10:00    | Süsteemsed teenused | [Systemctl][systemctl-md] | 
+| 10:30    | Scriptimine  | [Scriptimine][scripting-md] | 
 | 13:00    | Lõuna  |  | 
 | 13:00    |   |  | 
 | 13:30    |   |  | 
@@ -56,6 +56,8 @@ _Ajakava võib muutuda vastavalt tempole_
 | 17:00    |   |  | 
 
 [protsessid-md]:     https://github.com/ooobik/ubuntu-training/blob/master/docs/markdown/protsessid.md
+[systemctl-md]:     https://github.com/ooobik/ubuntu-training/blob/master/docs/markdown/systemctl.md
+[scripting-md]:     https://github.com/ooobik/ubuntu-training/blob/master/docs/markdown/scripting.md
 
 
 ## Lahtised teemad
@@ -79,8 +81,9 @@ basic security
 
 ssh
 scriptimine
-protsessid
-cron, teenused
+#protsessid
+cron
+#teenused
 dns
 logrotate
 backup

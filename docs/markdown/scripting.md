@@ -13,11 +13,40 @@ Scriptide kirjutamisel on üheks tähtsamaks osaks keele valik - scriptid on mõ
 inimene sisestaks ükshaaval. Seepärast on tavaliselt linuxi scriptide puhul ka tarvis, et scriptid saaks välja kutsuda 
 süsteemseid programme ja binaare. Scriptimiskeelega bash olema me juba tuttavad, kuid nimekiri nendest on pikk. Peale 
 kõikide shellipõhiste keelte kuuluvad scriptimiskeelte alla ka nt. Powershell, python, perl. Täna vaatame kahte linuxi
-populaarsemat keelt - bash ja python.
+populaarsemat keelt - bash ja python. 
 
+Eile rääkisime ka iga scripti kõige esimesest reast - shebang. Shebang on rida scriptis, mis näitab kernelile millise
+interpeteeatoriga script käivitada.
+
+```
+#!/bin/bash
+#!/bin/python2
+#!/bin/env python3
+#!/bin/env perl
+```
+Kui tekib kahtlus millis programmi viidata shebangis, saab selle terminalis alati üle kontrollida käsuga `which`
 
 ##Bash
 
+Bashis scriptide kirjutamine on küllaltki lihtne - .sh faili kävitamisel loetakse kõik käsud sisse samamoodi, nagu neid
+käsitsi bashi shelli kirjutada.
+
+Vaatame kiiret näidet, kus lisame kasutaja ja lisame kasutajale ka automaatselt sudo grupi
+
+```bash
+#!/bin/bash
+
+adduser --disabled-password --gecos "" $1
+usermod -a -G sudo $1
+```
+
+Nüüd jooksutades scripti kas käsuga `sh kasutaja_lisamine.sh` või andes talle käivitamisõiguse ja siis kasutades `./` käivitamisviisi
+näeme, et adduser viriseb kasutajanime puudumise pärast. Selle põhjuseks on muutuja `$1`, mis võtab meie scriptile
+esimese antud argumendi väärtuseks. Kui me jätame argumendi tühjaks, siis adduserile kasutajat mida lisada ei anta. 
+
+**Muuda scripti nii, et käivitamisel kontrollitakse esimese argumendi olemasolu**
+
+Scriptide teine oluline osa halduses on sama asja itereerimine mitmete sisendite vahel. **Kirjutame scripti, mis võtab kõik meie lisatud kasutajad, ja lisab nad uude gruppi.**
 
 ##Python
 
@@ -37,6 +66,6 @@ subprocess.call(["adduser", "-g", "1001", "-m", "juku" ])
 
 ```
 
-Pythoni võimekus scriptimises on ka peidus pythoni lisapaketis `shutils`, mille dokumentatsiooni leiab TODO
+Pythoni võimekus scriptimises on ka peidus pythoni lisapaketis `shutil`, mille dokumentatsiooni leiab [siit](https://docs.python.org/2/library/shutil.html)
 
 

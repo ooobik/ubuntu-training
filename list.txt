@@ -1,0 +1,25 @@
+Koolituse kava:
+
+1) Mis liik ? Ubuntu/Centos/Debian/Redhat - rollid ettevõttes,
+erinevused distributsioonide vahel
+SLAIDID TEHTUD ,HARJUTUS UBUNTU INSTALL JUURDE.
+
+
+2) Mida sööb? Linuxi tarkvarahoidlad erinevatel distributsioonidel. deb
+ja rpm vorming
+räägime siis rpmidest ja debianist siin slaididel?
+
+
+3) Kui kaua elab? Distributsioonide versioneerimine ja uuendamine
+
+4) Kellega ja kuidas läbi saab? Kasutajaõigused/failiõigused. Kasutaja
+loomine, piiramine, õiguste võimendamine
+
+5) Mis jäsemeid omab ja mida nende juures silmas pidada? Tuum ja selleversioonid. Suhtlus lisaseadmetega. Lisaseadmete vormindus ja rakendamine.
+
+6) Kuidas talle kombeid õpetada? Töötavate programmide toime- ja
+jälgimismehhanismid, käivitamine, teenusena käivitamine, sundsulgemine.
+Ressursihaldus
+
+7) Mis teha siis, kui üksi koju jääb? Kaughaldus. Perioodilise
+käivitamise teenused
