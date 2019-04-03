@@ -43,9 +43,9 @@ _Ajakava võib muutuda vastavalt tempole_
 
 | **Kellaaeg** | **Teema**  | **Materjalid** 
 | -------- | ---------  | ---------  
-| 09:00    |   |  | 
-| 09:15    |   |  | 
-| 10:45    |   |  | 
+| 09:00    | Ülessättimine |  | 
+| 09:15    | Protsessid | [Protsessid][protsessid-md] | 
+| 10:00    | Süsteemsed teenused |  | 
 | 11:00    |   |  | 
 | 13:00    | Lõuna  |  | 
 | 13:00    |   |  | 
@@ -54,6 +54,9 @@ _Ajakava võib muutuda vastavalt tempole_
 | 15:15    |   |  | 
 | 15:00    | Kohvipaus |  | 
 | 17:00    |   |  | 
+
+[protsessid-md]:     https://github.com/ooobik/ubuntu-training/blob/master/docs/markdown/protsessid.md
+
 
 ## Lahtised teemad
 vaata ajakava paremini üle
