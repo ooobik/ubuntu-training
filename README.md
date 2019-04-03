@@ -47,9 +47,9 @@ _Ajakava võib muutuda vastavalt tempole_
 | 09:15    | Protsessid | [Protsessid][protsessid-md] | 
 | 10:00    | Süsteemsed teenused | [Systemctl][systemctl-md] | 
 | 10:30    | Scriptimine  | [Scriptimine][scripting-md] | 
-| 13:00    | Lõuna  |  | 
-| 13:00    |   |  | 
-| 13:30    |   |  | 
+| 12:45    | Lõuna  |  | 
+| 13:45    | DNS | [Slaidid][dns-html] | 
+| 14:10    | SSH  | [Ssh harjutus][ssh-md] | 
 | 14:30    |   |  | 
 | 15:15    |   |  | 
 | 15:00    | Kohvipaus |  | 
@@ -58,6 +58,8 @@ _Ajakava võib muutuda vastavalt tempole_
 [protsessid-md]:     https://github.com/ooobik/ubuntu-training/blob/master/docs/markdown/protsessid.md
 [systemctl-md]:     https://github.com/ooobik/ubuntu-training/blob/master/docs/markdown/systemctl.md
 [scripting-md]:     https://github.com/ooobik/ubuntu-training/blob/master/docs/markdown/scripting.md
+[dns-md]:     https://github.com/ooobik/ubuntu-training/blob/master/docs/html/dns.html
+[ssh-md]:     https://github.com/ooobik/ubuntu-training/blob/master/docs/html/ssh.html
 
 
 ## Lahtised teemad
@@ -80,11 +82,11 @@ basic security
 
 
 ssh
-scriptimine
+#scriptimine
 #protsessid
 cron
 #teenused
-dns
+#dns
 logrotate
 backup
 httpd/nginx
