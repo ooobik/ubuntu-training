@@ -68,4 +68,21 @@ subprocess.call(["adduser", "-g", "1001", "-m", "juku" ])
 
 Pythoni võimekus scriptimises on ka peidus pythoni lisapaketis `shutil`, mille dokumentatsiooni leiab [siit](https://docs.python.org/2/library/shutil.html)
 
+## Cron
+
+Cron(d) on linuxi daemon mis on mõeldud perioodiliste scriptide jooksutamiseks - peamiseks kasutusalaks on tavaliselt failide puhastamine,
+logrotate, backupid ja monitooring. Croni dokumentatsioon räägib pikemalt croni täisvõimekusest, kuid hetkel vaatame crontabi süntaksi 
+ja croni konfiguratsioonide kausta ehitust. 
+
+[pilt](https://linuxconfig.org/images/crontab.png)
+
+Peame `/etc/crontab` faili oma erilise süntaksiga on cronil ka perioodiliseks käivitamiseks kaustad - kui vajutame `TAB` klahvi
+kaks korda pooliku käsuga näeme järgmist väljundit
+```
+[root@testing etc]# cd /etc/cron
+cron.d/       cron.daily/      cron.hourly/  cron.monthly/ crontab       cron.weekly/  
+```
+
+Kui oleme laisad, või meil ei ole vaja konkreetselt kellaajalist käivitamist piisab ka intervallide kausta scripti lisamisest.
+Croni scriptide puhul peab alati veenduma, et kasutaja kelle õigustes neid käivitatakse saab failidele ligi ning et tal oleks olemas käivitamisbitt.
 

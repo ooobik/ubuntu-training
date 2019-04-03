@@ -81,10 +81,10 @@ common mistakes /*, / ./* ./
 basic security
 
 
-ssh
+#ssh
 #scriptimine
 #protsessid
-cron
+#cron
 #teenused
 #dns
 logrotate
