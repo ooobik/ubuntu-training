@@ -46,6 +46,23 @@ esimese antud argumendi väärtuseks. Kui me jätame argumendi tühjaks, siis ad
 
 **Muuda scripti nii, et käivitamisel kontrollitakse esimese argumendi olemasolu**
 
+```bash
+#!/bin/bash
+
+USER=$1
+
+PASSWORD="$(openssl rand -base64 12)"
+
+if [ -z $USER ]; then
+        echo "Argument username required"
+        exit 1
+fi
+
+sudo useradd -p $(openssl passwd -6 $PASSWORD) --create-home --shell=/bin/bash $USER
+sudo usermod -a -G sudo $USER
+
+echo "Lisasin kasutaja $USER parooliga $PASSWORD"                                 
+```
 Scriptide teine oluline osa halduses on sama asja itereerimine mitmete sisendite vahel. **Kirjutame scripti, mis võtab kõik meie lisatud kasutajad, ja lisab nad uude gruppi.**
 
 ##Python
