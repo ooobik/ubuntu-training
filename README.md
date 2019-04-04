@@ -48,7 +48,7 @@ _Ajakava võib muutuda vastavalt tempole_
 | 10:00    | Süsteemsed teenused | [Systemctl][systemctl-md] | 
 | 10:30    | Scriptimine  | [Scriptimine][scripting-md] | 
 | 12:45    | Lõuna  |  | 
-| 13:45    | DNS | [Slaidid][dns-html] | 
+| 13:45    | DNS | [Slaidid][dns-md] | 
 | 14:10    | SSH  | [Ssh harjutus][ssh-md] | 
 | 14:30    | Nginx | [Harjutus][nginx-md] | 
 | 15:15    |   |  | 
@@ -73,5 +73,5 @@ _Ajakava võib muutuda vastavalt tempole_
 #dns
 logrotate
 backup
-httpd/nginx
+#httpd/nginx
 monitooring
