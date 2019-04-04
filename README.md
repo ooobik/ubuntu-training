@@ -60,8 +60,8 @@ _Ajakava võib muutuda vastavalt tempole_
 [systemctl-md]:     https://github.com/ooobik/ubuntu-training/blob/master/docs/markdown/systemctl.md
 [scripting-md]:     https://github.com/ooobik/ubuntu-training/blob/master/docs/markdown/scripting.md
 [dns-md]:     https://github.com/ooobik/ubuntu-training/blob/master/docs/html/dns.html
-[ssh-md]:     https://github.com/ooobik/ubuntu-training/blob/master/docs/html/ssh.html
-[nginx-md]:     https://github.com/ooobik/ubuntu-training/blob/master/docs/html/nginx.md
+[ssh-md]:     https://github.com/ooobik/ubuntu-training/blob/master/docs/markdown/ssh.md
+[nginx-md]:     https://github.com/ooobik/ubuntu-training/blob/master/docs/markdown/nginx.md
 [logrotate-out]: https://www.digitalocean.com/community/tutorials/how-to-manage-logfiles-with-logrotate-on-ubuntu-16-04
 
 ## Lahtised teemad
