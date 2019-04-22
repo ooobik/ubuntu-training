@@ -30,15 +30,27 @@ sätestada oma võtmed, keelata parooliga logimine.
 ## SSH harjutus
 
 Kuigi sshd ei ole vaikimisi paigaldatud, on olemas ikkagi käsud ssh ühenduste avamiseks. Ssh ühenduse saab avada käsuga `ssh <kasutaja>@<masina ip>`.
-Peale terminalisesioonide avamise suudab ssh ka nt. suunata porte ja graafilisi liideseid (Graafika suunamine on kohutavalt aeglane, soovitan RDP protokolli kasutaja kui on vaja graafikat).
+Peale terminalisesioonide avamise suudab ssh ka nt. suunata porte ja graafilisi liideseid (Graafika suunamine on kohutavalt aeglane, soovitan RDP protokolli kasutada kui on vaja graafikat).
 
 Ssh poolne harjutus jääb täna küllaltki lihtsaks - vaja on aru saada kuidas ühenduste loomine käib.
 
 ```
 1. Kõigepealt avame ühenduse eelseadistatud masinasse - ip, kasutaja ja parool tulevad juhendajalt
-
+    ssh <kasutaja>@<ip aadress>
 2. Teises terminaliaknas genereerime endale avaliku-salajase võtmepaari
+    ssh-keygen , väärtused jätame samaks
 3. Lisame remote masinas endale kasutaja, seekord oleks hea genereerida kasutaja ilma paroolita!
-4. Viimaks sätestame kasutajale võtmega autentimise.
-5. Viimaks suuname remote masina pordi 8080 enda masinasse vabalt valitud pordile. Ning avame brauseris aadressi http://localhost:<enda valitud port>
+    adduser <uuskasutaja>
+4. Viimaks sätestame kasutajale võtmega autentimise. Selleks peame kopeerima enda masina avaliku võtme uue kasutaja alla,
+spetsiaalsesse faili nimega authorized_keys. Vahetame uue kasutaja alla ja loome vastavad failid
+
+    su - uuskasutaja
+    mkdir ~/.ssh
+    chmod 700 ~/.ssh
+    touch ~/.ssh/authorized_keys
+    chmod 700 ~/.ssh/authorized_keys
+
+Nüüd avame authorized-keys faili tekstiredaktoriga ja kopeerima enda masina (seal kus genereerisime võtme) avaliku võtme sinna.
+    (enda masinas) cat ~/.ssh/id_rsa.pub
+    
 ```
