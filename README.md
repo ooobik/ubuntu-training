@@ -63,15 +63,3 @@ _Ajakava võib muutuda vastavalt tempole_
 [ssh-md]:     https://github.com/ooobik/ubuntu-training/blob/master/docs/markdown/ssh.md
 [nginx-md]:     https://github.com/ooobik/ubuntu-training/blob/master/docs/markdown/nginx.md
 [logrotate-out]: https://www.digitalocean.com/community/tutorials/how-to-manage-logfiles-with-logrotate-on-ubuntu-16-04
-
-## Lahtised teemad
-#ssh
-#scriptimine
-#protsessid
-#cron
-#teenused
-#dns
-logrotate
-backup
-#httpd/nginx
-monitooring
